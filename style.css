@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400;500;600;700&family=Lilita+One&family=Offside&family=Poppins:wght@300;400;500;600;700&family=Sacramento&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    background: url(image/bg1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.box1{
+    width: 40%;
+    height: 80%;
+    background-color: rgba(255,0,0,0.8);
+    border-radius: 20px;
+    margin-left: 150px;
+    position: relative;
+}
+.inner{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(180deg);
+}
+.inner h1{
+    font-size: 5rem;
+    font-weight: 1000;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 40px;
+    color: #fff;
+    writing-mode: vertical-lr;
+}
+.inner .l1{
+    color:rgba(255, 255, 255,1.40);
+}
+.inner .l2{
+    color:rgba(255, 255, 255,1.20);
+}
+.inner .l3{
+    color:rgba(255, 255, 255,1);
+}
+.inner .l4{
+    color:rgba(255, 255, 255,0.90);
+}
+.inner .l5{
+    color:rgba(255, 255, 255,0.70);
+}
+.inner .l6{
+    color:rgba(255, 255, 255,0.50);
+}
+.box2{
+    height: 70vh;
+    width: 50vw;
+    background: linear-gradient(to right, #101067 45%, #3255f1 100%);
+    position: absolute;
+    right: 10%;
+    border-radius: 30px;
+}
+.inner2{
+    width: 100%;
+    height: 100%;
+    padding-left: 35%;
+}
+.top{
+    color: #fff;
+    font-size: 4rem;
+    margin-top: 3rem;
+    font-family: 'Offside', cursive;
+}
+.top2{
+    font-family: 'Sacramento', cursive;
+}
+.logo{
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    left: 23%;
+}
+.logo img{
+    height: 100%;
+    object-fit: cover;
+}
+.inner2 h3{
+    padding: 20px;
+    color: #fff;
+    letter-spacing: 5px;
+}
+.inner2 .top3{
+    font-size: 3rem;
+    color: #fff;
+    margin: 3rem 0;
+    font-family: 'Offside', cursive;
+}
+.color{
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+}
+.color h3{
+    font-family: 'Poppins', sans-serif;
+}
+.color div{
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    background-color: black;
+    margin-left: 25px;
+}
+.color .div1{
+    background-color: red;
+}
+.color .div2{
+    background-color: green;
+}
+.color .div3{
+    background-color: blue;
+}
+.color .div4{
+    background-color: cyan;
+}
+.inner2 p{
+    padding-right: 30px;
+    font-size: 1.3rem;
+    color: white;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+.inner2  button{
+    height: 40px;
+    width: 150px;
+    margin-top: 20px;
+    background-color: red;
+    font-size: 1.2rem;
+    font-family: 'Lilita One', cursive;
+    color: #fff;
+    border-radius: 20px;
+}
